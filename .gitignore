@@ -1,0 +1,30 @@
+# Build/output files
+*.jar
+*.zip
+*.class
+build/
+dist/
+out/
+target/
+tmp/
+temp/
+
+# Local reconstruction/work folders
+00_original_jar/
+01_extracted_jar_reference/
+02_source_reconstruction/
+03_build_output/
+
+# Backups
+*.bak
+*.backup
+*.original
+*.disabled
+*.old
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
