@@ -42,7 +42,7 @@ try {
     Expand-Archive -LiteralPath $tempZip -DestinationPath $extractDir -Force
 
     Write-Host "Applying patch files..."
-    Copy-Item -LiteralPath (Join-Path $patchRoot "*") -Destination $extractDir -Recurse -Force
+    Copy-Item -Path (Join-Path $patchRoot "*") -Destination $extractDir -Recurse -Force
 
     $badString = "epicfight:born_in_chaos_v1:intoxicating_dagger"
     $daggers = Join-Path $extractDir "data\triavixlandorigins\tags\items\daggers.json"
@@ -73,3 +73,4 @@ try {
 finally {
     Remove-Item -LiteralPath $tempRoot -Recurse -Force -ErrorAction SilentlyContinue
 }
+
