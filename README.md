@@ -1,5 +1,5 @@
 # Unofficial Fixes - Triavixland Fantasy Origins
-Unofficial modified fork of Triavixland Fantasy Origins for Forge 1.20.1 bad intocixating dagger reference.
+Unofficial modified fork of Triavixland Fantasy Origins for Forge 1.20.1 bad intocixating dagger reference. Provides a script that produces a patched .jar file removing an older duplicate reference.
 
 Original project: Triavixland Fantasy Origins  
 Original author: Trimi  
