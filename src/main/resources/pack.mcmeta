@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Triavixland Fantasy Origins dagger tag fix"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "triavixlandorigins",
+        "path": "tags/items/daggers\\.json"
+      }
+    ]
+  }
+}

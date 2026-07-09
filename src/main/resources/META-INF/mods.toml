@@ -1,0 +1,40 @@
+modLoader = "lowcodefml"
+loaderVersion = "[47,)"
+license = "GPL-3.0-only"
+issueTrackerURL = "https://github.com/jake2259/Unofficial-Fix-Triavixland-Fantasy-Origins-1.20.1/issues"
+
+[[mods]]
+modId = "toirty_triavixlandorigins_dagger_fix"
+version = "1.0.0"
+displayName = "Triavixland Fantasy Origins - Dagger Tag Fix"
+displayURL = "https://github.com/jake2259/Unofficial-Fix-Triavixland-Fantasy-Origins-1.20.1"
+authors = "Toirty / jake2259"
+credits = "Original Triavixland Fantasy Origins by Trimi / Trimipz; based on Medieval Origins Revival by MuonR."
+description = '''Data-only Forge 1.20.1 add-on for Triavixland Fantasy Origins.
+
+This add-on filters and replaces Triavixland Fantasy Origins' dagger item tag to remove a malformed optional entry:
+epicfight:born_in_chaos_v1:intoxicating_dagger
+
+The original value contains two namespace separators and can cause Forge/Minecraft tag loading errors.
+This project does not redistribute the original mod jar or any compiled original code.'''
+
+[[dependencies.toirty_triavixlandorigins_dagger_fix]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.toirty_triavixlandorigins_dagger_fix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.toirty_triavixlandorigins_dagger_fix]]
+modId = "triavixlandorigins"
+mandatory = true
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
